@@ -1,6 +1,6 @@
 Pinteresting::Application.routes.draw do
-  root "pages#home"
-  get "about" => "pages#about"
+  root "pages#home" # creates root_path
+  get "about" => "pages#about" # creates about_path
   
   # get ':controller(/:action(/:id))'
 
